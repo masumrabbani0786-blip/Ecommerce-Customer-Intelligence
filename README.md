@@ -35,11 +35,6 @@ The analysis focuses on five major business areas:
 
 ## Dataset
 
-The project is based on the **Brazilian E-Commerce Public Dataset by Olist**.
-
-**Original Dataset:**  
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
 A project-specific analytical dataset was prepared from the source data.
 
 ### Final Dataset Scale
@@ -58,52 +53,36 @@ A project-specific analytical dataset was prepared from the source data.
 # Project Structure
 
 ```text
-Ecommerce-Customer-Intelligence/
+Ecommerce_Customer_Intelligence
 │
-├── 01_Raw_Data/
-│   ├── Cleaned datasets
-│   ├── Customer analysis outputs
-│   ├── Churn analysis outputs
-│   ├── Revenue analysis outputs
-│   └── Model evaluation files
+├──.gitignore
 │
-├── 02_Python/
-│   ├── 01_data_quality_check.py
-│   ├── 02_remove_duplicates.py
-│   ├── 03_data_conversion.py
-│   ├── 04_sales_calculations.py
-│   ├── 05_customer_rfm_analysis.py
-│   ├── 06_rfm_segmentation.py
-│   ├── 07_segment_validation.py
-│   ├── 08_product_category_analysis.py
-│   ├── 09_time_series_analysis.py
-│   ├── 10_cohort_retention_analysis.py
-│   ├── 11_customer_behavior_analysis.py
-│   ├── 12_discount_revenue_analysis.py
-│   ├── 13_churn_feature_engineering.py
-│   ├── 14_churn_prediction_model.py
-│   ├── 15_churn_prediction_final.py
-│   └── 16_churn_model_insights.py
+├── 01_Raw_Data
+│   ├── ecommerce_data_90000.csv
+│   └── README.md
 │
-├── 03_SQL/
+├── 02_Python
+│   ├── scripts
+│   └── outputs
+│
+├── 03_SQL
 │   ├── ecommerce_customer_intelligence_analysis.sql
 │   └── final_validation.sql
 │
-├── 04_PowerBI/
+├── 04_PowerBI
+│   ├── Executive Overview.pbix
+│   ├── Customer Intelligence.pbix
 │   ├── Dashboard_1_Executive_Overview.png
 │   ├── Dashboard_2_Customer_Intelligence.png
 │   ├── Dashboard_3_Churn_and_Risk.png
 │   └── Dashboard_4_Revenue_Optimization.png
 │
-├── 05_Reports/
+├── 05_Reports
 │   └── Ecommerce_Customer_Intelligence_Complete_Project_Report.pdf
 │
-└── README.md
+└──  README.md
 ```
 
-> **Note:** A separate `06_GitHub` folder is **not required**. GitHub is the repository itself. A root-level `README.md` is sufficient for project documentation.
-
----
 
 # Python Analysis
 
