@@ -55,8 +55,6 @@ A project-specific analytical dataset was prepared from the source data.
 ```text
 Ecommerce_Customer_Intelligence
 │
-├──.gitignore
-│
 ├── 01_Raw_Data
 │   ├── ecommerce_data_90000.csv
 │   └── README.md
@@ -355,6 +353,8 @@ It combines technical analytics with business decision-making and is designed fo
 **Masum Rabbani**
 
 Aspiring Data Analyst | SQL | Python | Power BI | Business Intelligence
+
+📧 masumrabbani@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/masum-rabbani-555a9641a) | 💻 [GitHub](https://github.com/masumrabbani0786-blip)
 
 ---
 
