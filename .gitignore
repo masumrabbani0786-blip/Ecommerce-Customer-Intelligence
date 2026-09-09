@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Power BI backup/temp files
+*.pbit
+*.bak
+
+# Python-generated temporary files
+*.pickle
+*.joblib
